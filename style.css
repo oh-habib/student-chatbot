@@ -1,0 +1,46 @@
+body{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    font: bolder;
+    border-radius: 20px;
+}
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+.chatbot-button {
+    background-color: #4a90e2; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Top and bottom, left and right padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+    flex: 1; /* Allow buttons to grow equally */
+    margin: 0 10px; /* Space between buttons */
+}
+
+.chatbot-button:hover {
+    background-color: #357abd; /* Darker color on hover */
+}
+
+
+li{
+    text-align: left;
+    list-style-type: circle;
+}
+span{
+    font-weight: bolder;
+}
+img{
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
